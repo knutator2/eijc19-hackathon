@@ -1,0 +1,22 @@
+<div>
+  <h1 matDialogTitle class="text-uppercase">{{ data.name }}</h1>
+  <span fxFlex></span>
+  <button mat-icon-button matDialogClose color="accent">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+
+<mat-dialog-content>
+  <div
+    fxLayout="column"
+    fxLayoutAlign="center center"
+    class="project portfolio-item d-block margin-auto portfolio-item-caption d-flex position-absolute h-100 w-100"
+  >
+    <img class="img-project img-fluid" [src]="data?.imageURL" [alt]="'project image of ' + data?.name" />
+    <p>{{ data.description }}</p>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions *ngIf="data.url" fxLayoutAlign="center center">
+  <a color="accent" mat-raised-button [href]="data.url">Visit</a>
+</mat-dialog-actions>

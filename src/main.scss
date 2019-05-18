@@ -1,0 +1,165 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+// 3rd party libraries
+//@import "~material-design-icons-iconfont/dist/fonts/material-icons.css";
+// Angular Material custom theme
+// The mixins below must be included once so we separated them from the variables
+@import "~@angular/material/theming";
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($app-theme);
+
+// Theme customization
+@import "theme/theme";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+$facebook: #385899;
+$twitter: #1da1f2;
+$github: #b21a32;
+
+.container {
+  text-align: center;
+  padding: 1em;
+}
+
+.fill-remaining {
+  flex: 1 1 auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #18bc9c;
+}
+
+.bg-secondary {
+  background-color: #2c3e50;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem;
+}
+
+.m-4 {
+  margin: 1.5rem;
+}
+
+.img-fluid {
+  max-height: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 599px) {
+  .img-project {
+    max-height: 200px;
+  }
+}
+
+@media only (min-width: 599px) and (max-width: 1279px) {
+  .img-project {
+    max-height: 300px;
+  }
+}
+
+@media only (min-width: 1279px) {
+  .img-project {
+    max-height: 400px;
+  }
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.contact-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+
+  .mat-fab {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.copyright {
+  background-color: #1a252f;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.mat-divider {
+  left: auto;
+  max-width: 15rem;
+  //padding: 0;
+  text-align: center;
+  border: none #fff;
+  border-top: 0.25rem solid;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+.mat-icon-star {
+  .grey {
+    color: #37474f;
+  }
+
+  .white {
+    color: #37474f;
+  }
+}

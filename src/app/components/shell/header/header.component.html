@@ -1,0 +1,56 @@
+<!--toolbar-->
+<mat-toolbar class="mat-elevation-z6 navbar" color="primary">
+  <div fxHide.gt-sm fxLayoutAlign="start center">
+    <button class="menu-button" mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="title">{{ config.title }}</span>
+  </div>
+  <div fxHide.lt-md>
+    <a class="brand" href="https://github.com/angular-material-extensions/freelancer-theme">{{ config.title }}</a>
+  </div>
+  <span fxFlex></span>
+  <div fxHide.lt-md>
+    <span class="fill-remaining"></span>
+    <button (click)="scrollToElementByID('portfolio')" mat-button routerLink="/home" routerLinkActive="active">
+      <span class="text-uppercase" translate>PORTFOLIO</span>
+    </button>
+    <button (click)="scrollToElementByID('about')" mat-button routerLink="/about" routerLinkActive="active">
+      <span class="text-uppercase" translate>ABOUT</span>
+    </button>
+    <button (click)="scrollToElementByID('contact')" mat-button routerLink="/contact" routerLinkActive="active">
+      <span class="text-uppercase" translate>CONTACT.SELF</span>
+    </button>
+  </div>
+  <button mat-icon-button [matMenuTriggerFor]="languageMenu">
+    <mat-icon>language</mat-icon>
+  </button>
+  <mat-menu #languageMenu="matMenu">
+    <button mat-menu-item *ngFor="let language of languages" (click)="setLanguage(language)">{{ language }}</button>
+  </mat-menu>
+</mat-toolbar>
+
+<!-- Header -->
+<div class="container">
+  <!--<mat-card class="bg-primary">-->
+    <!--<mat-card-content>-->
+      <!--<header class="masthead text-white text-center">-->
+        <!--<div class="container">-->
+          <!--<img-->
+            <!--matCardImageXLarge-->
+            <!--class="img-profile img-fluid mb-5 d-block margin-auto"-->
+            <!--src="assets/img/profile.png"-->
+            <!--alt=""-->
+          <!--/>-->
+          <!--<h1 class="text-uppercase mb-0 mat-display-1">{{ config.title }}</h1>-->
+          <!--<div fxLayout="column" fxLayoutAlign="center center" class="m-4">-->
+            <!--<div fxFlexAlign="center center">-->
+              <!--<mat-icon fxFlexAlign="center center" class="mat-icon-star">star</mat-icon>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<h2 class="font-weight-light mb-0 mat-h2">{{ config.description }}</h2>-->
+        <!--</div>-->
+      <!--</header>-->
+    <!--</mat-card-content>-->
+  <!--</mat-card>-->
+</div>

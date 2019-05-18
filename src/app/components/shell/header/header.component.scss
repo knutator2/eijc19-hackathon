@@ -1,0 +1,63 @@
+@import "src/theme/theme-variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.brand {
+  color: mat-color($app-primary, "default-contrast");
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+.menu-button {
+  margin-right: 1rem;
+}
+
+header .masthead {
+  padding-top: calc(1rem + 72px);
+  padding-bottom: 3rem;
+}
+
+header .masthead h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+header .masthead h2 {
+  font-size: 1.3rem;
+  //font-family: Lato;
+}
+
+@media (min-width: 992px) {
+  header .masthead {
+    padding-top: calc(1rem + 106px);
+    padding-bottom: 6rem;
+  }
+
+  header .masthead h1 {
+    font-size: 4.75em;
+    line-height: 4rem;
+  }
+
+  header .masthead h2 {
+    font-size: 1.75em;
+  }
+}
+
+.img-profile {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-size: small;
+}

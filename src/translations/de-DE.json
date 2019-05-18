@@ -1,0 +1,15 @@
+{
+  "APP_NAME": "Ihre TItle",
+  "ABOUT": "Über",
+  "Version": "Version",
+  "PORTFOLIO": "Portfolio",
+  "ADDRESS": "Adresse",
+  "CONTACT": {
+    "SELF": "Kontakt",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "PHONE_NUMBER": "Telefonnummer",
+    "MESSAGE": "Nachricht",
+    "SEND": "Senden"
+  }
+}
