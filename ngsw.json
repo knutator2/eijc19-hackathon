@@ -1,0 +1,98 @@
+{
+  "configVersion": 1,
+  "timestamp": 1558171242496,
+  "index": "https://knutator2.github.io/eijc19-hackathon/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://knutator2.github.io/eijc19-hackathon/favicon.ico",
+        "https://knutator2.github.io/eijc19-hackathon/index.html",
+        "https://knutator2.github.io/eijc19-hackathon/main.26c3b979a27199cfea26.js",
+        "https://knutator2.github.io/eijc19-hackathon/polyfills.c897fd9ff58135e762ea.js",
+        "https://knutator2.github.io/eijc19-hackathon/runtime.26209474bfa8dc87a77c.js",
+        "https://knutator2.github.io/eijc19-hackathon/styles.825ffcb93977e4af64d0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://knutator2.github.io/eijc19-hackathon/assets/icons/facebook.svg",
+        "https://knutator2.github.io/eijc19-hackathon/assets/icons/github-circle.svg",
+        "https://knutator2.github.io/eijc19-hackathon/assets/icons/linkedin.svg",
+        "https://knutator2.github.io/eijc19-hackathon/assets/icons/twitter.svg",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-128x128.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-144x144.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-152x152.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-192x192.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-384x384.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-512x512.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-72x72.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-96x96.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/cabin.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/cake.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/circus.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/game.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/safe.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/submarine.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/img/profile.png",
+        "https://knutator2.github.io/eijc19-hackathon/assets/manifest.json",
+        "https://knutator2.github.io/eijc19-hackathon/assets/pdf/graduate_software_engineer.pdf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://knutator2.github.io/eijc19-hackathon/assets/icons/facebook.svg": "7adff801f32e332d456f02cf672e3843defaa46b",
+    "https://knutator2.github.io/eijc19-hackathon/assets/icons/github-circle.svg": "8cbbe0b21db431d1a713a9dae71632d617556e37",
+    "https://knutator2.github.io/eijc19-hackathon/assets/icons/linkedin.svg": "b36f1676e29874742bc33724ecfb647a6b233780",
+    "https://knutator2.github.io/eijc19-hackathon/assets/icons/twitter.svg": "ef774fee0b1fb18f9ea6743c2984ff337b23b756",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-128x128.png": "b9cbcee329c974ee1a41d501ad62d8841e2df45a",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-144x144.png": "cee6f46dda413c5e3f5741f1564e9f4de004873b",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-152x152.png": "4ea6c87c0c9f7370721886174a615019bfd60d82",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-192x192.png": "eeb3581b7079934dbe28a47f6b47bdacbb4dc13f",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-384x384.png": "cae7ebed43b5a4060ffd155cfab2b2276cdc7f3d",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-512x512.png": "f830fc75b904cf0459504bffd995a958b2135867",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-72x72.png": "c26ecd9a3c9972377893a739173054f3604a284e",
+    "https://knutator2.github.io/eijc19-hackathon/assets/images/icons/icon-96x96.png": "e617445d946921f7363cebb0c2df143b3d5b9979",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/cabin.png": "5ee7a53260c426e56b2778e54f9cd75ba43c2546",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/cake.png": "a86e89bd4608e1c42d97725d051e458976176eb5",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/circus.png": "734d64dd23e50fc4357df6662b7d460b82554fc5",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/game.png": "e77891c87c21b2191ca8ad39a510193962bcf025",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/safe.png": "630eff3357a16c78cb6b6ab1bea8abea066eaaa1",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/portfolio/submarine.png": "47a68fc616ea560e28c8fe0fff4a0828fdb7b377",
+    "https://knutator2.github.io/eijc19-hackathon/assets/img/profile.png": "5448d1040cec523266fa2ff7b21b82f0947ab8b9",
+    "https://knutator2.github.io/eijc19-hackathon/assets/manifest.json": "49959d04f2ceee5138b4a291585aefa7dc62cc99",
+    "https://knutator2.github.io/eijc19-hackathon/assets/pdf/graduate_software_engineer.pdf": "4d4bfe81acee687ecffccd0d5d42f4239c2e1db8",
+    "https://knutator2.github.io/eijc19-hackathon/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "https://knutator2.github.io/eijc19-hackathon/index.html": "5ac68bdaba618d2a6de416fb8780eeba2fd5e189",
+    "https://knutator2.github.io/eijc19-hackathon/main.26c3b979a27199cfea26.js": "1b0bcd7e4abbe84169d8236b18a67c12e5733a2e",
+    "https://knutator2.github.io/eijc19-hackathon/polyfills.c897fd9ff58135e762ea.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://knutator2.github.io/eijc19-hackathon/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://knutator2.github.io/eijc19-hackathon/styles.825ffcb93977e4af64d0.css": "b78ba4da72353a7bbf38c1cb4234d725baf8091e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
